@@ -1,0 +1,13 @@
+<?php
+		require_once('class.imgsizer.php');
+		$imgSizer = new imgSizer();
+		$imgSizer->type      = "width";
+	$imgSizer->max       = 150;
+	$imgSizer->quality   = 8;
+	$imgSizer->square    = true;
+	$imgSizer->prefix    = "miniatura_";
+	$imgSizer->folder    = "_sized/";
+	// Single image ##################################################
+	$imgSizer->image     = '/tutorial/imagenes/productos/'.$row_productos['imagen'];
+	echo("<img src=\"" . $imgSizer->resize() . "\"  />");
+	?> 

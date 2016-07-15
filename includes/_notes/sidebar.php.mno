@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ultimos" value="name:idProducto;datatype:int,name:strNombre;datatype:string,name:intCategoria;datatype:int,name:strImagen;datatype:string,name:dblPrecio;datatype:real,name:intStock;datatype:int,name:intActivo;datatype:int" />
+	<infoitem key="UD_categorias" value="name:idCategoria;datatype:int,name:strNombre;datatype:string" />
+	<infoitem key="UD_oferta" value="name:idProducto;datatype:int,name:strNombre;datatype:string,name:intCategoria;datatype:int,name:strImagen;datatype:string,name:dblPrecio;datatype:real,name:intStock;datatype:int,name:intActivo;datatype:int,name:intOferta;datatype:int" />
+</info>
